@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mosaic {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+#mosaic video {
+    width: 150px;
+    height: 150px;
+    background-color: #000;
+    border: 2px solid #333;
+}
+
+.open-cam {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
